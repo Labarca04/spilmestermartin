@@ -135,6 +135,8 @@ client.on("message", message => {
 	    message.channel.send("https://images-na.ssl-images-amazon.com/images/I/71Rck4FFRbL._SL1500_.jpg");
 		}
    }
+	
+   if(message.content == "!minecraft")
 });
 
 client.login(process.env.BOT_TOKEN);
